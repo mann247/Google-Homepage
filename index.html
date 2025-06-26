@@ -1,0 +1,141 @@
+<!--Nia Manning
+General Inquiry 2
+6/22/2025-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <title>Google: Nia Manning</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/5be4e191-0886-4352-9563-48be44961254/GoogleLogo.png?v=1750309935937"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation Links-->
+    <header>
+      <nav>
+        <!--About/Store Nav-->
+        <ul class="navbar">
+          <a
+            href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+            >About</a
+          >
+          <a
+            href="https://store.google.com/us/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"
+            >Store</a
+          >
+        </ul>
+        <!--Gmail/Images/Sign In Nav-->
+        <ul class="navbar">
+          <a href="https://workspace.google.com/intl/en-US/gmail/">Gmail</a>
+          <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+          <img
+            class="nav-icon"
+            src="https://cdn.glitch.global/5be4e191-0886-4352-9563-48be44961254/apps_24dp_666666_FILL0_wght400_GRAD0_opsz24%20(2).png?v=1750441621268"
+            alt="app menu"
+          /> <!--Official Google page has drop down menu for apps-->
+          <a
+            href="https://accounts.google.com"
+            ><button class="nav-logInBtn">Sign In</button></a
+          >
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--Logo-->
+      <a href="https://www.google.com/search?q=hip+hop"
+        ><img
+          src="https://cdn.glitch.global/5be4e191-0886-4352-9563-48be44961254/Juneteenth2025.jpg?v=1750275054367"
+          alt="Hip-hop Google Logo"
+          id="google-logo"
+      /></a><!--Goes to google search about Hip Hop-->
+      <section>
+        <!--Search Bar & Buttons-->
+        <form action="https://www.google.com/search">
+          <div class="searchbar">
+            <img
+              src="https://cdn.glitch.global/5be4e191-0886-4352-9563-48be44961254/search_24dp_666666_FILL0_wght400_GRAD0_opsz24.png?v=1750443591674"
+              alt="searchbtn"
+              id="searchbar-img"
+            />
+            <input type="text" name="q" id="searchInput" />
+            <img
+              src="https://cdn.glitch.global/5be4e191-0886-4352-9563-48be44961254/mic_24dp_666666_FILL0_wght400_GRAD0_opsz24.png?v=1750521717774"
+              alt="searchbtn"
+              id="searchbar-img"
+            />
+          </div>
+
+          <div class="search-btn" style="text-align: center">
+            <button onclick="alert(searchTxt)" id="searchBtn">
+              Google Search
+            </button>
+            <button
+              type="submit"
+              name="btnI"
+              value="1"
+              onclick="alert(searchTxt1)"
+              id="searchBtn2"
+            >
+              I'm Feeling Lucky
+            </button>
+
+            <!--Javascript functionality-->
+            <script>
+              const searchInput = document.getElementById("searchInput");
+              const searchBtn = document.getElementById("searchBtn");
+
+              searchBtn.addEventListener("click", function () {
+                const searchTxt = searchInput.value;
+                alert("Here are the search results for:" + " " + searchTxt);
+              });
+
+              searchBtn2.addEventListener("click", function () {
+                const searchTxt1 = searchInput.value;
+                alert("Here is the top result for:" + " " + searchTxt1);
+              });
+            </script>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!--Footer Links-->
+    <footer>
+      <nav id="footbar">
+        <ul id="fb-left">
+          <a
+            href="https://business.google.com/us/google-ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            >Advertising</a
+          >
+          <a
+            href="https://business.google.com/us/business-profile/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+            >Business</a
+          >
+          <a href="https://www.google.com/search/howsearchworks/?fg=1"
+            >How Search Works</a
+          >
+        </ul>
+
+        <ul id="fb-center">
+          <a
+            href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"
+            >Applying AI towards science and the enviornment</a
+          >
+        </ul>
+
+        <ul id="fb-right">
+          <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+          <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+          <a href="#">Settings</a> <!--Official Google page has drop down menu-->
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
