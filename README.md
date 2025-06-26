@@ -14,3 +14,4 @@ In the new text file you created, answer the following questions:
 1. Explain what the terminal is in your own words.
 2. What is the major difference between Git and GitHub?
 3.  What are the steps to fork a GitHub repository?
+
