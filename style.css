@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 html,
@@ -14,7 +14,6 @@ body {
 }
 
 /*header*/
-
 header {
   width: 100%;
   padding: 8px 16px;
