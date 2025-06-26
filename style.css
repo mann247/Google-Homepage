@@ -65,7 +65,7 @@ ul img {
 }
 .nav-logInBtn:hover {
   border-radius: 20px;
-  box-shadow: 0 0 20px 0 gainsboro;
+  box-shadow: 0 0 20px 0 gainsboro; 
 }
 
 /*main*/
