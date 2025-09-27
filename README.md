@@ -17,4 +17,5 @@ This project is a simple recration of the Google homepage using HTML, CSS, and J
 
 
 👩🏾‍💻Author
+
 Created by Nia Manning for Road To Hire
