@@ -14,3 +14,7 @@ This project is a simple recration of the Google homepage using HTML, CSS, and J
 1. HTML5
 2. CSS3
 3. JavaScript
+
+
+👩🏾‍💻Author
+Created by Nia Manning for Road To Hire
