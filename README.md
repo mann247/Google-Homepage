@@ -1,17 +1,16 @@
-# Nia Manning
-# RoadtoHire | Cohort 17
-# General Inquiry 3
+# Google Homepage
 
-Challenge:
-1. Create a GitHub Repository named ‘GoogleHomepage’,  
-Add your files and code from your Google Homepage to VS Code.
-Push the code to your Google Homepage repository.
+This project is a simple recration of the Google homepage using HTML, CSS, and JavaScript functionality. It was built as part of my learning journey to practice front-end web development fundamentals.
 
-2. Make a directory on your desktop and name it “GitHub Basics”.  Your goal is to push the contents of your “GitHub Basics” directory to GitHub.
-GitHub Basics’ Contents
-In your “GitHub Basics” directory, create a text file called “exercise”. 
-In the new text file you created, answer the following questions:
-1. Explain what the terminal is in your own words.
-2. What is the major difference between Git and GitHub?
-3.  What are the steps to fork a GitHub repository?
+⚡️ Features 
+1. General Layout of the Google homepage
+2. Navigation Bar & Footer with links
+3. Centered Google logo and search bar
+4. Buttons styled to match Google's design
+5. Responsive structure for different screen sizes
+6. Functioning Google Search and "I'm Feeling Lucky" Buttons
 
+💻 Technology Used
+1. HTML5
+2. CSS3
+3. JavaScript
